@@ -26,7 +26,8 @@
     p. git remote :semacam API untuk berinteraksi antara clien dengan server
     q. git push :untuk mengirim commit ke server
     r. git pull :untuk mengambil commit dari server jika ada perubahan di server yang dibuat oleh branch lain yang commit
-1. Branch
+
+3. Branch
     a. git branch :untuk menampilkan semua branch (lokal)
     b. git branch --all :untuk menampilkan semua branch (publik)
     c. git branch nama_branch :membuat branch
@@ -38,4 +39,5 @@
     i. git branch -d namabranch :menghapus branch yang sudah di merge
     j. git branch -D namabranh :menghapus file yang belum maupun sudah dimerge
 
-
+4. Sourcetree
+    Sourcetree merupakan Software berbasis GUI untuk memudahkan dalam mengoperasikan git, sourcetree sangat mudah digunakan, dalam menyelesaikan konflik menjadi lebih mudah, dan mempercepat pekerjaan dengan tampilan menu
