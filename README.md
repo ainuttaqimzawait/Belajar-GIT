@@ -1,4 +1,8 @@
 # Belajar-GIT
+Pengenalan GIT
+GIT adalah salah satu version control system yang diciptakan oleh Linus Torvalds. GIT mencatat setiap perubahan file di code atau sourcode kita. GIT bisa menyimpan seluruh versi source code, berkolaborasi membangun sistem jadi mudah, dan berkontribusi di proyek open source
+Memudahkan dalam tracking perubahan, memahami cara deploy modern, Dsb. GIT sangat dibutuhkan saat ingin membangun sistem dengan berkolaborasi, membuat versi dari sistem, backup sour code, dan berkolaborasi dengan programmer dunia
+
 branch
 1.git branch namabranch :membuat branch
 2.git checkout namabranch :memindah branch=untuk pindah branch master>git checkout master
