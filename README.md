@@ -26,16 +26,16 @@
     p. git remote :semacam API untuk berinteraksi antara clien dengan server
     q. git push :untuk mengirim commit ke server
     r. git pull :untuk mengambil commit dari server jika ada perubahan di server yang dibuat oleh branch lain yang commit
-branch
-1.git branch namabranch :membuat branch
-2.git checkout namabranch :memindah branch=untuk pindah branch master>git checkout master
-3.git commit -a -m "keterangan commit"/git commit -am " keterangan commit" :untuk commit file yang sudah modified
-4.git branch :untuk menampilkan branch
-5.git log  --all --decorate --oneline --graph :menampilkan visualisasi branch dalam bentuk graph/untuk merge file yang tidakbisa di merge langsung
-=short>alias graph="git log --all --decorate --oneline --graph">graph
-git merge namabranch :untuk merge file
-git branch --merged :menampilkan branch yang sudah di merge
-git branch -d namabranch :menghapus branch yang sudah di merge
-git branch -D namabranh :menghapus file yang belum dimerge
+1. Branch
+    a. git branch :untuk menampilkan semua branch (lokal)
+    b. git branch --all :untuk menampilkan semua branch (publik)
+    c. git branch nama_branch :membuat branch
+    d. git checkout nama_branch :untuk berpindah branch, untuk pindah branch master> git checkout master
+    e. git commit -a -m "keterangan commit"/git commit -am " keterangan commit" :untuk commit file yang sudah modified
+    f. git log  --all --decorate --oneline --graph :menampilkan visualisasi branch dalam bentuk graph/untuk merge file yang tidak bisa di merge langsung, short>alias graph="git log --all --decorate --oneline --graph">graph
+    g. git merge namabranch :untuk merge file
+    h. git branch --merged :menampilkan branch yang sudah di merge
+    i. git branch -d namabranch :menghapus branch yang sudah di merge
+    j. git branch -D namabranh :menghapus file yang belum maupun sudah dimerge
 
 
